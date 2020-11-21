@@ -1,5 +1,4 @@
-﻿#include<iostream>
-using namespace std;
+
 
 unsigned long long fibo(int n)
 {
@@ -9,10 +8,3 @@ unsigned long long fibo(int n)
 		return (fibo(n - 2) + fibo(n - 1));
 }
 
-void main()
-{
-	int n;
-	cout << "Nhap n: ";
-	cin >> n;
-	cout << fibo(n);
-}

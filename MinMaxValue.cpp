@@ -1,7 +1,7 @@
 #include <iostream>
 #include<cmath>
 using namespace std;
-//kiem tra tang giam
+//kiem tra tang giam hay giam
 bool checktangdangiamdan(int n) 
 {
 	int d, a, N, S = 0;

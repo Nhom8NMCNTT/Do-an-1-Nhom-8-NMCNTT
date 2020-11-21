@@ -1,4 +1,4 @@
-unsigned long long fibo(int n);
+unsigned long long fibo(int k);
 bool checktangdangiamdan(int n);
 int max(int n);
 int min(int n);

@@ -21,7 +21,7 @@ void input()
         case 1:
             cout << "Nhap K: ";
             cin >> x;
-            cout << "So fibonacci thu k: " << fibo(x) << "\n";
+            cout << "So fibonacci thu k la: " << fibo(x) << "\n";
             break;
         case 2:
             int y;

@@ -17,5 +17,4 @@ void phantichthuasonguyento(long long n)
 			cout << i << "^" << d << "*";
 		d = 0;
 	}
-	return;
 }

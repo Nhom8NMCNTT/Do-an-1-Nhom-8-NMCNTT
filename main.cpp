@@ -5,12 +5,13 @@ using namespace std;
 void input()
 {
     long long x;
-    cout << "Nhap 1, 2, 3 de chon bai toan ban muon tinh.\n\n";
+    cout << "Nhap 1, 2, 3, 4 de chon bai toan ban muon tinh.\n\n";
     cout << "\t0. Ket thuc.\n";
     cout << "\t1. Tinh so fibonacci thu k.\n";
     cout << "\t2. Tinh UCLN va BCNN cua x va y.\n";
-    cout << "\t3. Xet xem so x nhap vao co tang dan hay giam dan va in ra chu so lon nhat va nho nhat.\n\n";
-    cout << "Bai toan muon thuc hien la: ";
+    cout << "\t3. Xet xem so x nhap vao co tang dan hay giam dan va in ra chu so lon nhat va nho nhat.\n";
+    cout << "\t4. Phan tich thua so nguyen to.\n\n";
+	cout << "Bai toan muon thuc hien la: ";
     cin >> x;
     cout << "\n";
     switch (x)
@@ -37,6 +38,11 @@ void input()
             cout << "Chu so nho nhat: " << min(x) << "\n";
             cout << "Chu so lon nhat: " << max(x) << "\n";
             break;
+		case 4: 
+			cout << "Nhap vao so n: ";
+			cin >> x;
+			phantichthuasonguyento(x);
+			break;
         default: input();
             break;
     }

@@ -4,3 +4,4 @@ int max(int n);
 int min(int n);
 int UCLN(int a, int b);
 int BCNN(int a, int b);
+void phantichthuasonguyento(long long n);

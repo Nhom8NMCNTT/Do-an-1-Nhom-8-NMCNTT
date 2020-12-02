@@ -1,5 +1,5 @@
-# Do-an-1-Nhom-8-NMCNTT
-Đồ án 1-GITHUB-Nhóm 8-NMCNTT-HCMUS
+# 4Calc
+Các tính năng
 
 Tính toán 4 chức năng: 
 

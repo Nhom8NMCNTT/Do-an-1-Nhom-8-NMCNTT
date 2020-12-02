@@ -21,7 +21,7 @@ bool checktangdangiamdan(long long n)
 	}
 	return true;
 }
-// tim chu so max, min
+// tim chu so min, max
 long long max(long long n) 
 {
 	long long d, max = 0;

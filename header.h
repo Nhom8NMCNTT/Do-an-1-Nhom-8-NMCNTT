@@ -1,4 +1,4 @@
-unsigned long long fibo(long long k);
+unsigned long long fibo(long long x);
 bool checktangdangiamdan(long long n);
 long long max(long long n);
 long long min(long long n);

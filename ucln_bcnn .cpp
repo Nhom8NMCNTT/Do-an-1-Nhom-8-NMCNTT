@@ -11,5 +11,5 @@ long long UCLN(long long a, long long b)
 long long BCNN(long long a, long long b)
 {
     long long kq = UCLN(a, b);
-    return a * b / kq;
+    return (a * b / kq);
 }

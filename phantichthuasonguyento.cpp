@@ -3,8 +3,8 @@ using namespace std;
 
 void phantichthuasonguyento(long long n)
 {
-	long int d = 0;
-	for (int i = 2; i <= n; i++)
+	long long d = 0;
+	for (long long i = 2; i <= n; i++)
 	{
 		if (n == 0)
 			break;

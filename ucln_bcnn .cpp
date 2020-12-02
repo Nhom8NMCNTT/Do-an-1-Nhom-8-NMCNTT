@@ -1,4 +1,4 @@
-int UCLN(int a, int b)
+long long UCLN(long long a, long long b)
 {
     while (a != b)
     {
@@ -8,8 +8,8 @@ int UCLN(int a, int b)
     return a;
 }
 
-int BCNN(int a, int b)
+long long BCNN(long long a, long long b)
 {
-    int kq = UCLN(a, b);
+    long long kq = UCLN(a, b);
     return a * b / kq;
 }

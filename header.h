@@ -1,7 +1,7 @@
-unsigned long long fibo(int k);
-bool checktangdangiamdan(int n);
-int max(int n);
-int min(int n);
-int UCLN(int a, int b);
-int BCNN(int a, int b);
+unsigned long long fibo(long long k);
+bool checktangdangiamdan(long long n);
+long long max(long long n);
+long long min(long long n);
+long long UCLN(long long a, long long b);
+long long BCNN(long long a, long long b);
 void phantichthuasonguyento(long long n);

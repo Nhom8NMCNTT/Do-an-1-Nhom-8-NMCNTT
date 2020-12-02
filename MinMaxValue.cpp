@@ -2,9 +2,9 @@
 #include<cmath>
 using namespace std;
 //kiem tra tang giam hay giam
-bool checktangdangiamdan(int n) 
+bool checktangdangiamdan(long long n) 
 {
-	int d, a, N, S = 0;
+	long long d, a, N, S = 0;
 	N = n;
 	while (n > 0) 
 	{
@@ -22,9 +22,9 @@ bool checktangdangiamdan(int n)
 	return true;
 }
 // tim chu so max, min
-int max(int n) 
+long long max(long long n) 
 {
-	int d, max = 0;
+	long long d, max = 0;
 	while (n > 0) 
 	{
 		d = n % 10;
@@ -33,9 +33,9 @@ int max(int n)
 	}
 	return max;
 }
-int min(int n) 
+long long min(long long n) 
 {
-	int d, min;
+	long long d, min;
 	min = n % 10;
 	while (n > 10) 
 	{

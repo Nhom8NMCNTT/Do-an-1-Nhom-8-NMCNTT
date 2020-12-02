@@ -43,7 +43,8 @@ void input()
 			cin >> x;
 			phantichthuasonguyento(x);
 			break;
-        default: input();
+        default: 
+	    input();
             break;
     }
     cout << "\n\n";
